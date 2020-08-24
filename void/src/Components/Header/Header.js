@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../../void_logo.png";
+import logo from "../../Images/void_logo.png";
 import { NavLink } from "react-router-dom";
 import { connect } from "react-redux";
 import { setUser, setSidebar } from "../../reducer";

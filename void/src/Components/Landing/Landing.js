@@ -1,5 +1,9 @@
 import React from "react";
 import "./Landing.scss";
+import gina from "../../Images/gina-profile.jpeg";
+import isaac from "../../Images/isaac-profile.jpeg";
+import thomas from "../../Images/thomas-profile.jpeg";
+import joely from "../../Images/joely-profile.jpg"
 
 export default class Landing extends React.Component {
   componentDidMount() {
@@ -72,7 +76,7 @@ export default class Landing extends React.Component {
               <div className="name-1">Gina Perez</div>
               <img
                 className="image-1"
-                src="https://media-exp1.licdn.com/dms/image/C4E03AQH0WWaKW9gMhQ/profile-displayphoto-shrink_200_200/0?e=1588809600&v=beta&t=Oy_RfnXz0KX3hwW3n3hZ9ncP6RjbTNTA2xU6KOc1mGY"
+                src={gina}
                 alt="Gina Perez"
               ></img>
             </div>
@@ -104,7 +108,7 @@ export default class Landing extends React.Component {
               <div className="name-2">Joely Vernier</div>
               <img
                 className="image-2"
-                src="https://media-exp1.licdn.com/dms/image/C5603AQFnjXu66Xpeqw/profile-displayphoto-shrink_200_200/0?e=1586390400&v=beta&t=xJYlGpeioyM27qC-x8Ub-D1fgf-ELGjla9Imb3n3JP8"
+                src={joely}
                 alt="Joely Vernier"
               ></img>
             </div>
@@ -136,7 +140,7 @@ export default class Landing extends React.Component {
               <div className="name-3">Thomas Hoover</div>
               <img
                 className="image-3"
-                src="https://media-exp1.licdn.com/dms/image/C5603AQHw6ySUVOcgTA/profile-displayphoto-shrink_200_200/0?e=1588809600&v=beta&t=-8uxCfHgeZd9mSiGqrKdCAvoXHv8JgHCnamnf1mr3dw"
+                src={thomas}
                 alt="Thomas Hoover"
               ></img>
             </div>
@@ -168,7 +172,7 @@ export default class Landing extends React.Component {
               <div className="name-4">Isaac Hansen</div>
               <img
                 className="image-4"
-                src="https://media-exp1.licdn.com/dms/image/C5603AQGACH3GQ9lhKw/profile-displayphoto-shrink_200_200/0?e=1588809600&v=beta&t=DnQ_DlxKVZnURBLrk4g052LhQQ75E7Kj_p_JG1veq_E"
+                src={isaac}
                 alt="Isaac Hansen"
               ></img>
             </div>
