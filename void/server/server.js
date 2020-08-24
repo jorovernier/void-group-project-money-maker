@@ -169,5 +169,5 @@ app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "../build/index.html"));
 });
 
-let port = SERVER_PORT || 4000;
+let port = SERVER_PORT || 4001;
 server.listen(port, () => console.log(`Listening on port ${port}.`));
